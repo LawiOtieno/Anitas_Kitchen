@@ -1,3 +1,290 @@
-.firstp {
+body{
+    background-color: #f5f5f5;
+    max-width: 1200px;
+    max-height: 50%;
+    margin: auto;
+    font-size: 24px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.LargeCont {
+    max-width: 100%;
+    border-radius: 2px;
+    color: black;
+}
+.TopLogo {
+    background-image: url("./assets/landing.jpg");
+    background-repeat: no-repeat;
     text-align: center;
+    display: block;
+    font-size: 20px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif
+}
+.navicon {
+    margin: 20px;
+}
+#navigation_icon{
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0px;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    height: 170px;  
+    color: white;
+    font-style: italic;
+}
+#FunTM{
+    flex: 1;
+    text-align: center;
+}
+.HHPT {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+    font-style: normal;
+  
+}
+#HH{
+    background-color: lightgray;
+    color: black;
+}
+#PT {
+    background-color: #F15A29;
+}
+#breakfast, #lunch, #dinner{
+    flex: 1;
+    text-align: center;
+    padding-top: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#breakfast {
+    background-image: url("./assets/breakfast.jpg");
+}
+#lunch{
+    background-image: url("./assets/lunch.jpg");
+    background-color: rgba(231, 228, 228, 0.79); 
+    background-blend-mode: overlay;                         /*adds overlay on img bakground in the same div*/
+}
+#dinner{
+    background-image: url(./assets/dinner.jpg);
+}
+.FastFood{
+    display: flex;
+    background-color: whitesmoke;
+}
+#FFimg {
+    width: 50%;
+    border: 10px solid snow;
+    padding: 40px;
+    padding-right: 20px;
+    
+}
+#FFp{
+    width: 50%;
+    padding: 50px;
+    margin-left: 10px;
+    font-size: 14px;  
+}
+#image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid whitesmoke;
+    box-shadow: 0px 0px 6px grey;
+}
+.Drinks{
+    display: flex;
+    background-color: whitesmoke;
+}
+#Drinksid{
+    float: right;
+    width: 50%;
+    padding: 20px;
+    padding-right: 50px;
+    margin-left: 10px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 14px;  
+}
+#DrinksGallery{
+    background-color: whitesmoke;
+    width: 200px;
+    height:50px ;
+    color: #F15A29;
+    border: 2px solid #F15A29;
+}
+ #Drinksimg{
+    width: 100%;
+    border: 2px solid #E5E8E8;
+    box-sizing: border-box;
+    float: right;
+    padding: 20px;
+    padding-right: 50px;   
+}  
+#images{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 10px solid whitesmoke;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px grey;
+    overflow: hidden;
+}
+.fooditems{
+    background-image: url(./assets/foodsBg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(160, 156, 156, 0.79); 
+    background-blend-mode: overlay;
+}
+.FoodItems {
+    color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.container1{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 0px;
+    height: auto;
+}
+
+#food{
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#tr{
+    text-align: center;
+}
+.foodtype{
+    margin: 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: gainsboro;
+    border: 1px solid rgb(206, 203, 203);
+    padding: 10px;
+    height: 50px;
+}
+#food {
+    color: #F15A29;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+#customers{
+    padding: 50px;  
+    padding-top: 20px;
+    background-color: whitesmoke; 
+    margin-bottom: 2px;
+}
+.CustAbout{
+    height: 200;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px grey;
+    padding: 20px;
+}
+#CustReview > h3, #about >h3{
+    color: #F15A29;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+#CustReview, #about{
+    text-align: center; 
+    font-size: 16.5px;
+}
+#CustReview{
+    flex: 3;
+    margin-right: 40px;
+    text-align: center;
+}
+#vertical { 
+    border-left: 1px solid grey;
+    height: 210px; 
+    margin: auto;
+}
+#about{
+    flex: 2;
+    margin-left: 40px;
+}
+#textbox{
+    background-color: whitesmoke;
+    width: 400px;
+    height:50px ;
+    border: none;
+    margin-top: 5px;
+    border-color: white;
+    margin: 20px;
+    opacity: 0.5;
+}
+#Subscribe{
+    background-color: #F15A29;
+    width: 200px;
+    height:50px ;
+    border:none;
+    color: white;
+}
+.arrow {
+    border: 1px solid #F15A29;
+    border-width: 0 3px 3px 0;
+    padding: 15px;
+    text-align: center;
+}
+.right {
+    transform: rotate(-45deg);
+    float: right;
+}
+.left {
+    transform: rotate(130deg);
+    float: left;
+}
+.container{
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+    margin: 5px; 
+  }
+.email{
+    background-image: url(./assets/subscribe.jpg);
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 40px;
+    color: white;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding-top: 40px; 
+    font-size: 15px;
+    background-color: #F15A29;
+    color: white;
+}
+#footerlogo{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
 }
